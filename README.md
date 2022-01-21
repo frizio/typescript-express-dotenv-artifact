@@ -5,3 +5,7 @@ Demo Web Application CRUD
 Applicazione Web che usa ...
 
 [Fazt Code Video Tutorial: GraphQL & MySQL CRUD con Nodejs, Typescript y TypeORM](https://www.youtube.com/watch?v=8_DuZHJBB-k)
+
+```bash
+npm i express cors express-graphql graphql mysql typeorm bcryptjs
+```
