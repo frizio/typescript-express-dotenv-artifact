@@ -1,7 +1,7 @@
 {
-  "name": "graphql-crud",
+  "name": "typescript-express-artifact",
   "version": "1.0.0",
-  "description": "Demo Web Application CRUD",
+  "description": "Demo Web Application in Typescript",
   "main": "index.js",
   "scripts": {
     "start": "node dist/index.js",
