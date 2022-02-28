@@ -20,7 +20,6 @@ npm i morgan
 npm i -D @types/morgan
 ```
 
-
 ## Configure Typescript
 
 ```bash
@@ -32,4 +31,23 @@ npx tsc --init
   "rootDir": "./src",
   "outDir": "./dist"
 }
+```
+
+## Create docker images
+
+- Dockerfile
+- .dockerignore
+
+```bash
+docker build -t demo-node-16-ts .
+```
+
+## Run docker images
+
+```bash
+docker run -it -p 4000:3000 demo-node-16-ts
+```
+
+```bash
+docker run -it -e PORT=5000 -p 5001:5000 demo-node-16-ts
 ```
