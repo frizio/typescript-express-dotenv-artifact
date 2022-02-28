@@ -35,6 +35,8 @@ npx tsc --init
 
 ## Create docker images
 
+[Link](https://rsbh.dev/blog/rest-api-express-typescript-docker)
+
 - Dockerfile
 - .dockerignore
 
@@ -50,4 +52,11 @@ docker run -it -p 4000:3000 demo-node-16-ts
 
 ```bash
 docker run -it -e PORT=5000 -p 5001:5000 demo-node-16-ts
+```
+
+## Work with docker-compose
+
+```bash
+docker-compose up --build
+docker-compose down --rmi all
 ```

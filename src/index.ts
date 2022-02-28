@@ -3,7 +3,7 @@ import { PORT } from "./config";
 
 const main = () => {
   app.listen(PORT);
-  console.log("Server on port", PORT);
+  console.log("Server on internal PORT", PORT);
 };
 
 main();
