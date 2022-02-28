@@ -13,6 +13,14 @@ npm i -D typescript ts-node-dev
 npm i -D @types/node @types/express @types/cors
 ```
 
+## Add morgan middleware
+
+```bash
+npm i morgan
+npm i -D @types/morgan
+```
+
+
 ## Configure Typescript
 
 ```bash
