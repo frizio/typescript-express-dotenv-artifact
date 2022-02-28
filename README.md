@@ -1,4 +1,4 @@
-# Archetype for Basic Web Server with typescript + Express + cors + dotenv
+# Artifact for Basic Web Server with Typescript + Express + cors + dotenv
 
 ## Install Dependencies
 
